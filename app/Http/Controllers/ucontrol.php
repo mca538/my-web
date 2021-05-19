@@ -107,7 +107,7 @@ class ucontrol extends Controller
     {
 
         $userinfo2 = loginmodel::where([['uname',$request->uname],['pswd',$request->pswd]])->first();
-        if($request->email=='admin' && $request->pass=='admin')
+        if($request->uname=='admin' && $request->pswd=='admin')
         {
             $request-> session()->put('username','admin');
             return redirect('/adminhome');

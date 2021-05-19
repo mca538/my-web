@@ -20,7 +20,7 @@ Route::get('/edit/{id}',[pcontrol::class,'edit']);
 Route::get('/delete/{id}',[pcontrol::class,'deleteview']);
 Route::get('/cartadd/{pid}',[pcontrol::class , 'cartadd' ] );
 route::get('/cancelorder/{id}/{userid}', [pcontrol::class,'cancelorder']);
-Route::post('/login',[ucontrol::class,'store']);
+Route::post('/store',[ucontrol::class,'store']);
 Route::get('/order/{id}/edit', [pcontrol::class,'orderedit']);
 
 

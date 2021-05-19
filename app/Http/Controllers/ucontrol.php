@@ -106,31 +106,21 @@ class ucontrol extends Controller
 
     {
 
-        $getuname=$request -> input('uname');
-        $getpswd=$request -> input('pswd');
-        $data = DB::select('select id from loginmodels where uname=? and pswd=?',[$getuname,$getpswd]);
-       
-        
-        if(count($data))
+        $userinfo2 = loginmodel::where([['uname',$request->uname],['pswd',$request->pswd]])->first();
+        if($request->email=='admin' && $request->pass=='admin')
         {
-            $dat= $request -> input();
-                $request-> session()->put('username', $dat['uname']);
-                return redirect('/userhome');
-        }
-        else if($getuname=='admin'&& $getpswd=='admin')
-        {
-            $dat= $request -> input();
-                $request-> session()->put('username','admin');
-            return view('add');
+            $request-> session()->put('username','admin');
+            return redirect('/adminhome');
 
         }
-
-        
-        else
+        else if($userinfo2)
         {
-    
-            return back()->withInput();
-            
+            $request->session()->put('username',$userinfo->uname);
+                    $request->session()->put('loggedusersid',$userinfo->sid);
+                    return redirect('/userhome');
+        }
+        else{
+            return back()->with('fail','Invalid Credentials !');
         }
 
     }

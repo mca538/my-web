@@ -115,8 +115,8 @@ class ucontrol extends Controller
         }
         else if($userinfo2)
         {
-            $request->session()->put('username',$userinfo->uname);
-                    $request->session()->put('loggedusersid',$userinfo->sid);
+            $request->session()->put('username',$userinfo2->uname);
+                    $request->session()->put('loggedusersid',$userinfo2->sid);
                     return redirect('/userhome');
         }
         else{

@@ -18,7 +18,7 @@ class ucontrol extends Controller
      */
     public function adminhome()
     {
-        return view('adminhome');
+        return view('add');
     }
     
     public function usrhome()

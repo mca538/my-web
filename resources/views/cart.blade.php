@@ -31,7 +31,7 @@
 @endforeach
 
 </div>
-<center><a href="ordernow" class="btn btn-primary">Order Now</a><center>
+<center><a href="ordernow" class="btn btn-primary">Order Now</a></center>
 
 
 </div>

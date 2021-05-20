@@ -118,7 +118,7 @@
                 </tr>
         <tr>
             <td>Password</td>
-            <td><input type="text" name="pswd" class="form-control">
+            <td><input type="password" name="pswd" class="form-control">
             <span class="text-danger">@error('pswd'){{$message}} @enderror  </span>
             </td>
         </tr>

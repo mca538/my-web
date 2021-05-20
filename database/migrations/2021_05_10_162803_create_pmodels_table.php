@@ -18,7 +18,7 @@ class CreatePmodelsTable extends Migration
             $table->string('pid');
             $table->string('pn');
             $table->string('pd');
-            $table->string('pp');
+            $table->integer('pp');
             $table->mediumText("pimage")->nullable();
             $table->timestamps();
         });

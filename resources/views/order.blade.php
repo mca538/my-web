@@ -26,13 +26,13 @@
   <form action="/orderplace" method="post">
       {{csrf_field()}}
   <div class="form-group">
-    <textarea name="address" class="form-control" placeholder="Enter your address"></textarea>
+    <textarea name="address" class="form-control" placeholder="Enter your address" required></textarea>
   </div>
   <div class="form-group">
     <label for="pwd">Payment Method</label><br><br>
     <!-- <input type="radio" value="card" name="payment"><span>Debit/Credit card</span><br><br>
     <input type="radio" value="upi" name="payment"><span>UPI</span><br><br> -->
-    <input type="radio" value="cod" name="payment"><span>Cash On delivery</span><br><br>
+    <input type="radio" value="cod" name="payment" required><span>Cash On delivery</span><br><br>
   <button type="submit" class="btn btn-primary">Order Now</button>
 </form>
   </div>

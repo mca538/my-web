@@ -76,7 +76,7 @@
 {{ csrf_field() }}
 
 
-<h1 style="text-align:center;background:  #000;">Login</h1>
+<h1 style="text-align:center;background:  #f9dfdc;border-radius: 20px; color:#000">Login</h1>
     <table class="table table-borderless">
         <tr>
             <td><input type="text" placeholder="Username" name="uname" class="form-control" required></td>

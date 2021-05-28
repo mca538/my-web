@@ -13,7 +13,7 @@
 <body background="https://i.pinimg.com/originals/be/45/3f/be453fdcc7a758c2ff13f76af2bccfdc.jpg" style="background-color:grey" >
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             
           <a class="navbar-brand" href="/userhome">HOME</a>
@@ -53,7 +53,8 @@
             <div class="icon_with_anc">
               
               
-              <span class="bike-icon"><font style="color:white">Biker</font><img src="//cdn.shopify.com/s/files/1/0519/0084/2163/t/15/assets/Bike-icon_1024x1024.png?v=6657187349174243104" /><font style="color:white">Nation</font></span>
+            <span class="bike-icon"><font><h1 style="color:black">BikersPro</h1></font></span>
+
               <div class="anc_text_wrap"> 
                 
               </div>

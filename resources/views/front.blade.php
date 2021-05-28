@@ -13,7 +13,7 @@
 <body background="https://i.pinimg.com/originals/be/45/3f/be453fdcc7a758c2ff13f76af2bccfdc.jpg" style="background-color:grey" >
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             
           <a class="navbar-brand" href="/userhome">HOME</a>
@@ -51,8 +51,8 @@
             <div class="bb_anc__slide">
             <div class="icon_with_anc">
               
-              
-              <span class="bike-icon"><font style="color:white">Biker</font><img src="//cdn.shopify.com/s/files/1/0519/0084/2163/t/15/assets/Bike-icon_1024x1024.png?v=6657187349174243104" /><font style="color:white">Nation</font></span>
+            <span class="bike-icon"><font><h1 style="color:black">BikersPro</h1></font></span>
+
               <div class="anc_text_wrap"> 
                 
               </div>
@@ -67,13 +67,13 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img width="50px"  height="370px" src="https://ms-spares.in/wp-content/uploads/2020/01/Banner-2-Copy.jpg" class="d-block w-100" alt="50">
+            <img width="50px"  height="370px" src="https://media.istockphoto.com/photos/auto-parts-picture-id526209999?k=6&m=526209999&s=612x612&w=0&h=pcsEVOrVhoOZ636I7w7z7EH0ul4RHtLxkhZSE17AXIc=" class="d-block w-100" alt="50">
           </div>
           <div class="carousel-item">
-            <img height="370px" src="https://www.owen-carbon.com/wp-content/uploads/2020/09/banner-owen.png" class="d-block w-100" alt="50">
+            <img height="370px" src="https://wallpaperaccess.com/full/4040378.jpg" class="d-block w-100" alt="50">
           </div>
           <div class="carousel-item">
-            <img height="370px" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2018/BikeStore/XCM64._CB466738927_.jpg" class="d-block w-100" alt="50">
+            <img height="370px" src="https://images.pexels.com/photos/3757226/pexels-photo-3757226.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="d-block w-100" alt="50">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -91,9 +91,9 @@
             <div class="icon_with_anc">
               
               
-              <span class="bike-icon"><img src="//cdn.shopify.com/s/files/1/0519/0084/2163/t/15/assets/Bike-icon_1024x1024.png?v=6657187349174243104" /></span>
+              
               <div class="anc_text_wrap"> 
-              Biker Nation is a pioneer in the automobile business in Kerala having more than seven decades of experience in the service and sales of bikespare parts.Now, “Biker Nation” is the No.1 dealer in Kerala with more than 28 bikespare shops spread across Kerala.
+              Bikers pro is a pioneer in the automobile business in Kerala having more than seven decades of experience in the service and sales of bikespare parts.Now, “Bikers pro” is the No.1 dealer in Kerala with more than 28 bikespare shops spread across Kerala.
               </div>
               
             </div>

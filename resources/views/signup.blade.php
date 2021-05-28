@@ -9,10 +9,10 @@
     <title>Document</title>
 
   </head>
-<body background="https://i.pinimg.com/originals/be/45/3f/be453fdcc7a758c2ff13f76af2bccfdc.jpg" style="background-color:grey" >
+<body background="https://images.squarespace-cdn.com/content/v1/59d53a3ff09ca4f957debfa2/1508126920585-MLMLSVNNTVEI3M70MRIO/ke17ZwdGBToddI8pDm48kHo2gE5EFzkooOUp5QnTC8pZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIA-4dYj7rCsJRaHtgQ8B4gs4fs6wOWvtftR5aeqBIHfgKMshLAGzx4R3EDFOm1kBS/Cycle+Repair.jpg?format=1500w"  style="height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             
           <a class="navbar-brand" href="/front">HOME</a>
@@ -50,8 +50,8 @@
             <div class="bb_anc__slide">
             <div class="icon_with_anc">
               
-              
-              <span class="bike-icon"><font style="color:white">Biker</font><img src="//cdn.shopify.com/s/files/1/0519/0084/2163/t/15/assets/Bike-icon_1024x1024.png?v=6657187349174243104" /><font style="color:white">Nation</font></span>
+            <span class="bike-icon"><font><h1 style="color:black">BikersPro</h1></font></span>
+
               <div class="anc_text_wrap"> 
                 
               </div>
@@ -67,65 +67,63 @@
 <div class="row">
 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 <br><br><br><br>
-<img height="500px" src="https://images.pexels.com/photos/6156531/pexels-photo-6156531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-thumbnail" alt="...">
 </div>
 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 <br><br><br>
-<center><h4>Sign Up</h4></center>
+<h1 >Sign Up</h1>
 <form action="/store" method="post">
     {{csrf_field()}}
     <table class="table table-borderless">
     
         <tr>
-            <td>Name</td>
-            <td><input type="text" name="name" class="form-control">
+            
+            <input type="text" name="name" class="form-control" placeholder="Name">
             <span class="text-danger">@error('name'){{$message}} @enderror  </span>
-            </td>
-        </tr>
+            
+        </tr><br>
         <tr>
-            <td>Username</td>
-            <td><input type="text" name="uname" class="form-control">
+         
+            <input type="text" name="uname" class="form-control" placeholder="Username">
             <span class="text-danger">@error('uname'){{$message}} @enderror  </span>
-            </td>
-        </tr>
+            
+        </tr><br>
         <tr>
-            <td>Email</td>
-            <td><input type="text" name="email" class="form-control">
+            <input type="text" name="email" class="form-control" placeholder="Email">
             <span class="text-danger">@error('email'){{$message}} @enderror  </span>
-            </td>
-        </tr>
+            
+        </tr><br>
         <tr>
-            <td>Mobile</td>
-            <td><input type="text" name="mobile" class="form-control">
+
+            <input type="text" name="mobile" class="form-control" placeholder="Mobile">
             <span class="text-danger">@error('mobile'){{$message}} @enderror  </span>
-            </td>
-        </tr>
-        <tr>
-                <td>Gender</td>
-                <td>
+            
+        </tr><br>
+        <tr  >
+        <label style="color:white;  background-color: black;">  Gender</label>
+                
                      <input class="form-check-input" type="radio" name="ugend" id="flexRadioDefault1" value="male" >
                 
-                     <label class="form-check-label" for="flexRadioDefault1">
-                     Male
+                     <label class="form-check-label" for="flexRadioDefault1"  style=" color:white;background-color: black;">
+                     <b>Male</b>
                      </label> &nbsp &nbsp &nbsp &nbsp
                      <input class="form-check-input" type="radio" name="ugend" id="flexRadioDefault2" value="female" >
-                     <label class="form-check-label" for="flexRadioDefault2">
-                     Female
+                     <label class="form-check-label" for="flexRadioDefault2" style=" color:white;background-color: black">
+                     <b>Female<b>
                     </label><br>
                     <span class="text-danger">@error('ugend'){{$message}} @enderror  </span>
-                </td>
+                
 
-                </tr>
+                </tr><br>
         <tr>
-            <td>Password</td>
-            <td><input type="password" name="pswd" class="form-control">
+            
+            <input type="password" name="pswd" class="form-control" placeholder="Password">
             <span class="text-danger">@error('pswd'){{$message}} @enderror  </span>
-            </td>
-        </tr>
+            
+        </tr><br>
         <tr>
-            <td></td>
-            <td><button class="btn btn-primary" type="submit">Sign Up</button></td>
-        </tr>
+            
+            <button class="btn btn-primary" type="submit">Sign Up</button>
+        </tr><br>
     </table>
     
     </form>

@@ -9,10 +9,10 @@
     <title>Document</title>
 
   </head>
-<body background="https://i.pinimg.com/originals/be/45/3f/be453fdcc7a758c2ff13f76af2bccfdc.jpg" style="background-color:grey" >
 
+<body background="https://images.squarespace-cdn.com/content/v1/59d53a3ff09ca4f957debfa2/1508126920585-MLMLSVNNTVEI3M70MRIO/ke17ZwdGBToddI8pDm48kHo2gE5EFzkooOUp5QnTC8pZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIA-4dYj7rCsJRaHtgQ8B4gs4fs6wOWvtftR5aeqBIHfgKMshLAGzx4R3EDFOm1kBS/Cycle+Repair.jpg?format=1500w"  style="height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             
           <a class="navbar-brand" href="/front">HOME</a>
@@ -50,8 +50,8 @@
             <div class="bb_anc__slide">
             <div class="icon_with_anc">
               
-              
-              <span class="bike-icon"><font style="color:white">Biker</font><img src="//cdn.shopify.com/s/files/1/0519/0084/2163/t/15/assets/Bike-icon_1024x1024.png?v=6657187349174243104" /><font style="color:white">Nation</font></span>
+            <span class="bike-icon"><font><h1 style="color:black">BikersPro</h1></font></span>
+
               <div class="anc_text_wrap"> 
                 
               </div>
@@ -70,11 +70,13 @@
 <div class="container">
 <div class="row">
 <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3"></div>
-<div class="col col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+<div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 <br><br><br><br><br><br><br>
 <form action="/logs" method="post">
 {{ csrf_field() }}
 
+
+<h1>Login</h1>
     <table class="table table-borderless">
         <tr>
             <td><input type="text" placeholder="Username" name="uname" class="form-control" required></td>
